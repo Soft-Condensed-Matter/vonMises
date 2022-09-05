@@ -9,12 +9,12 @@ von Mises Probability density function
 
   For an angle $x$ the function is given by:
 
-  $$f(x; \mu, \kappa) = \frac{\exp \left(\kappa \cos\left( x - \mu \right)\right)}{2 \pi I_{0}(\kappa)}$$,
+  $$f(x; \mu, \kappa) = \frac{\exp \left(\kappa \cos\left( x - \mu \right)\right)}{2 \pi I_{0}(\kappa)},$$
 
   where $\mu$ is the location and $\kappa$ the concentration, while $I_{0}(\kappa)$ is the modified Bessel function of the first kind of order zero.
 
 
-_Implementation_:
+# Implementation: #
 
  The numerical implementation uses the modified Bessel function of first kind 
  that it is computed according to the numerical recipies in Fortran, code also 
@@ -24,7 +24,7 @@ _Implementation_:
 
  ![Values](https://github.com/Soft-Condensed-Matter/vonMises/blob/master/vonMises.png)
  
-_Usage_:
+# Usage: #
 
  Simple compilation as:
 
@@ -34,5 +34,5 @@ _Usage_:
  Execution:
  ./a.out
 
- Results are show directly on screen but could be piped to a file: 
+ Results are show directly on screen but could be directed to a file: 
  ./a.out > results.dat
