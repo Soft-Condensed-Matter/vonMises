@@ -14,7 +14,7 @@ von Mises Probability density function
   where $\mu$ is the location and $\kappa$ the concentration, while $I_{0}(\kappa)$ is the modified Bessel function of the first kind of order zero.
 
 
-# Implementation: #
+#### Implementation: ####
 
  The numerical implementation uses the modified Bessel function of first kind 
  that it is computed according to the numerical recipies in Fortran, code also 
@@ -24,7 +24,7 @@ von Mises Probability density function
 
  ![Values](https://github.com/Soft-Condensed-Matter/vonMises/blob/master/vonMises.png)
  
-# Usage: #
+#### Usage: ####
 
  Simple compilation as:
 
@@ -32,6 +32,7 @@ von Mises Probability density function
  gfortran -Wall vonMises.f90
 
  Execution:
+
  ./a.out
 
  Results are show directly on screen but could be directed to a file: 
